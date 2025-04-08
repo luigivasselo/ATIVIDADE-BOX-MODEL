@@ -4,11 +4,35 @@
     box-sizing: border-box;
 }
 
-.caixa {
+.caixa.um {
     width: 200px;
     height: 100px;
-    background-color: lightgray;
+    background-color: yellow;
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid black;
+}
+.caixa.dois {
+    width: 150px;
+    height: 100px;
+    background-color: red;
     margin: 20px;
     padding: 10px;
-    border: 2px solid black;
+    border: 5px solid blue;
+}.caixa.tres {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    margin: 0px 0px 0px 100px;
+    padding: 10px;
+    border: 2px solid pink;
+}
+.caixa.bonus {
+    width: 300px;
+    height: 150px;
+    background-color: purple;
+    padding: 20px 40px;
+    margin: 40px auto;
+    border: dashed 4px white;
+    justify-content: center;
 }
